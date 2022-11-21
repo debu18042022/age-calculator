@@ -1,0 +1,150 @@
+.text-c-persian-blue {
+    color: #3b82f6;
+}
+
+.guages {
+    align-items: center;
+    background: #eff6ff;
+    border: 1px dashed #2563eb;
+    border-radius: 12px;
+    display: flex;
+    height: 324px;
+    justify-content: center;
+    margin: auto;
+    padding: 32px;
+    position: relative;
+    width: 324px;
+}
+
+.ecllips-1 {
+    align-items: center;
+    border: 39px solid #dbeafe;
+    border-bottom: 39px solid transparent;
+    border-left: 39px solid #bfdbfe;
+    border-radius: 50%;
+    display: flex;
+    height: 260px;
+    justify-content: center;
+    position: absolute;
+    width: 260px;
+}
+
+.ecllips-1::after {
+    border: 19.2px solid #bfdbfe;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    content: "";
+    left: 18px;
+    position: absolute;
+    top: 230px;
+    transform: rotate(-46deg);
+}
+
+.ecllips-1::before {
+    border: 19.2px solid #dbeafe;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    content: "";
+    left: 205px;
+    position: absolute;
+    top: 228px;
+    transform: rotate(-312deg);
+}
+
+.ecllips-1__inner::after {
+    border: 19px solid #bfdbfe;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    content: "";
+    left: 16px;
+    position: absolute;
+    top: -5px;
+    transform: rotate(-134deg);
+}
+
+.dial {
+    align-items: center;
+    border: 1px dashed #2563eb;
+    border-bottom: 1px solid transparent;
+    border-radius: 50%;
+    display: flex;
+    height: 146.32px;
+    justify-content: center;
+    padding: 11px;
+    position: absolute;
+    width: 160px;
+}
+
+.dial:before {
+    color: #3b82f6;
+    content: "00";
+    font-weight: 400;
+    left: 17px;
+    position: absolute;
+    top: 145px;
+}
+
+.dial:after {
+    color: #3b82f6;
+    content: "100";
+    font-weight: 400;
+    left: 149px;
+    position: absolute;
+    top: 145px;
+}
+
+.dial__niddle-point {
+    border: 1px dashed #2563eb;
+    border-radius: 50%;
+    height: 23.73px;
+    left: 79px;
+    position: absolute;
+    top: 71px;
+    width: 23.73px;
+}
+
+.dial_niddle {
+    background: #dbeafe;
+    border: 1px dashed #2563eb;
+    border-radius: 50%;
+    border-top-left-radius: 770%;
+    border-top-right-radius: 888%;
+    height: 130px;
+    left: 50px;
+    position: absolute;
+    top: -33px;
+    transform: rotate(324deg);
+    width: 7px;
+}
+
+.dial_niddle-screw {
+    border: 1px dashed #2563eb;
+    border-radius: 50%;
+    height: 6.86px;
+    left: -1px;
+    position: absolute;
+    top: 123px;
+    width: 6.86px;
+}
+
+.dial_niddle-screw-outside {
+    border: 1px dashed #2563eb;
+    border-radius: 50%;
+    height: 14.86px;
+    left: -5px;
+    position: absolute;
+    top: 119px;
+    width: 14.86px;
+    z-index: -1;
+}
+
+.age-text {
+    font-family: "Inter";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    left: 150px;
+    line-height: 36px;
+    position: absolute;
+    top: 320px;
+}
